@@ -16,6 +16,14 @@
 		B7E507C924762D68007C4229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507C824762D68007C4229 /* main.m */; };
 		B7E507D324762D68007C4229 /* Test123Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507D224762D68007C4229 /* Test123Tests.m */; };
 		B7E507DE24762D68007C4229 /* Test123UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507DD24762D68007C4229 /* Test123UITests.m */; };
+		B7E507FE24763081007C4229 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507EE24763081007C4229 /* UIView+ZJFrame.m */; };
+		B7E507FF24763081007C4229 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507F324763081007C4229 /* ZJTitleView.m */; };
+		B7E5080024763081007C4229 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507F424763081007C4229 /* UIViewController+ZJScrollPageController.m */; };
+		B7E5080124763081007C4229 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507F724763081007C4229 /* ZJContentView.m */; };
+		B7E5080224763081007C4229 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507F824763081007C4229 /* ZJCollectionView.m */; };
+		B7E5080324763081007C4229 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507F924763081007C4229 /* ZJSegmentStyle.m */; };
+		B7E5080424763081007C4229 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507FA24763081007C4229 /* ZJScrollSegmentView.m */; };
+		B7E5080524763081007C4229 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E507FB24763081007C4229 /* ZJScrollPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,23 @@
 		B7E507D924762D68007C4229 /* Test123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E507DD24762D68007C4229 /* Test123UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test123UITests.m; sourceTree = "<group>"; };
 		B7E507DF24762D68007C4229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E507ED24763081007C4229 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		B7E507EE24763081007C4229 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		B7E507EF24763081007C4229 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
+		B7E507F024763081007C4229 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		B7E507F124763081007C4229 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		B7E507F224763081007C4229 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		B7E507F324763081007C4229 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		B7E507F424763081007C4229 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		B7E507F524763081007C4229 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		B7E507F624763081007C4229 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		B7E507F724763081007C4229 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		B7E507F824763081007C4229 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
+		B7E507F924763081007C4229 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
+		B7E507FA24763081007C4229 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		B7E507FB24763081007C4229 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		B7E507FC24763081007C4229 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		B7E507FD24763081007C4229 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +135,7 @@
 				B7E507BA24762D65007C4229 /* SceneDelegate.m */,
 				B7E507BC24762D65007C4229 /* ViewController.h */,
 				B7E507BD24762D65007C4229 /* ViewController.m */,
+				B7E507EB24763081007C4229 /* ThirdParty */,
 				B7E507BF24762D65007C4229 /* Main.storyboard */,
 				B7E507C224762D68007C4229 /* Assets.xcassets */,
 				B7E507C424762D68007C4229 /* LaunchScreen.storyboard */,
@@ -135,6 +161,38 @@
 				B7E507DF24762D68007C4229 /* Info.plist */,
 			);
 			path = Test123UITests;
+			sourceTree = "<group>";
+		};
+		B7E507EB24763081007C4229 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B7E507EC24763081007C4229 /* ZJScrollPageView */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B7E507EC24763081007C4229 /* ZJScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				B7E507ED24763081007C4229 /* ZJContentView.h */,
+				B7E507EE24763081007C4229 /* UIView+ZJFrame.m */,
+				B7E507EF24763081007C4229 /* ZJCollectionView.h */,
+				B7E507F024763081007C4229 /* ZJScrollSegmentView.h */,
+				B7E507F124763081007C4229 /* ZJScrollPageViewDelegate.h */,
+				B7E507F224763081007C4229 /* ZJSegmentStyle.h */,
+				B7E507F324763081007C4229 /* ZJTitleView.m */,
+				B7E507F424763081007C4229 /* UIViewController+ZJScrollPageController.m */,
+				B7E507F524763081007C4229 /* ZJScrollPageView.h */,
+				B7E507F624763081007C4229 /* UIView+ZJFrame.h */,
+				B7E507F724763081007C4229 /* ZJContentView.m */,
+				B7E507F824763081007C4229 /* ZJCollectionView.m */,
+				B7E507F924763081007C4229 /* ZJSegmentStyle.m */,
+				B7E507FA24763081007C4229 /* ZJScrollSegmentView.m */,
+				B7E507FB24763081007C4229 /* ZJScrollPageView.m */,
+				B7E507FC24763081007C4229 /* UIViewController+ZJScrollPageController.h */,
+				B7E507FD24763081007C4229 /* ZJTitleView.h */,
+			);
+			path = ZJScrollPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E507FE24763081007C4229 /* UIView+ZJFrame.m in Sources */,
+				B7E5080024763081007C4229 /* UIViewController+ZJScrollPageController.m in Sources */,
+				B7E5080224763081007C4229 /* ZJCollectionView.m in Sources */,
 				B7E507BE24762D65007C4229 /* ViewController.m in Sources */,
+				B7E5080424763081007C4229 /* ZJScrollSegmentView.m in Sources */,
 				B7E507B824762D65007C4229 /* AppDelegate.m in Sources */,
+				B7E5080124763081007C4229 /* ZJContentView.m in Sources */,
+				B7E507FF24763081007C4229 /* ZJTitleView.m in Sources */,
+				B7E5080524763081007C4229 /* ZJScrollPageView.m in Sources */,
 				B7E507C924762D68007C4229 /* main.m in Sources */,
 				B7E507BB24762D65007C4229 /* SceneDelegate.m in Sources */,
+				B7E5080324763081007C4229 /* ZJSegmentStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
