@@ -90,7 +90,7 @@
                 //结束月份 - 开始月份 =3
                 //结束日期 > 开始日期 提示不能查询
                 if (startArr.count >2 && [endArr[2] integerValue] > [startArr[2] integerValue]) {
-                    [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
+//                    [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
                     return;
                 }
                 
@@ -98,19 +98,19 @@
         }else if ([endArr[0] integerValue] - [startArr[0] integerValue] > 1){
             
             //结束年份 - 开始年份 > 1 提示不能查询
-             [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
+//             [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
             return;
         }else if ([endArr[0] integerValue] - [startArr[0] integerValue] == 1){
             //结束年份 - 开始年份 = 1
                 //结束月份 + 12 - 开始月份 > 3 提示不能查询
             if ([endArr[1] integerValue] + 12 - [startArr[1] integerValue] > 3) {
-                [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
+//                [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
                 return;
             }else if ([endArr[1] integerValue] + 12 - [startArr[1] integerValue] == 3){
                 //结束月份 + 12 - 开始月份 = 3 提示不能查询
                     //结束日期 > 开始日期 提示不能查询
                 if (startArr.count >2 && [endArr[2] integerValue] > [startArr[2] integerValue]) {
-                    [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
+//                    [MBProgressHUD showAutoHideMessage:@"当前仅支持查找3个自然月跨度的账单"];
                     return;
                 }
             }
