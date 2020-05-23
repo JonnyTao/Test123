@@ -74,7 +74,7 @@
         NSArray *startArr = [startTime componentsSeparatedByString:@"-"];
         NSArray *endArr = [endTime componentsSeparatedByString:@"-"];
         
-        DDLogDebug(@"---startArr:%@---endArr:%@",startArr,endArr);
+//        DDLogDebug(@"---startArr:%@---endArr:%@",startArr,endArr);
         //TODO:限制时间选择
         //如果结束时间比开始时间大3个月以上，提示不能查询
         
